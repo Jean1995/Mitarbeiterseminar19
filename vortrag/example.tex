@@ -43,7 +43,7 @@
   % per-mode=reciprocal, % m s^{-1}
   % decimal-marker=., % . statt , f�r Dezimalzahlen
 ]{siunitx}
-
+\DeclareSIUnit \parsec {pc}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%-------------Hier Titel/Autor/Grafik/Lehrstuhl eintragen--------------%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,7 +86,7 @@
         \setlength\itemsep{0.5em}
         \item Bereits früh bekannt (Coulomb, 1785): Ein isolierter elektrischer Leiter verliert mit der Zeit seine Ladung
         \item [$\rightarrow$] Leitfähigkeit der Luft?
-        \item Elster und Geitel (siehe Abbildung) 1900 mit der Hypothese:
+        \item \textbf{1900}: Elster und Geitel mit der Hypothese:
         \item [$\rightarrow$] Kleinste Mengen radioaktiver Substanzen in der Luft und in der Erde, welche der Luft ihre Leitfähigkeit verleihen
         \item Erste Untersuchungen von Ionisation außerhalb von Laboren (Höhlen, Salzminen...)
       \end{itemize}
@@ -119,7 +119,7 @@
       \begin{itemize}
         \setlength\itemsep{0.5em}
         \item Victor Hess, arbeitete ab 1910 am "Institut für Radiumforschung" in Wien
-        \item Durchmessung von Untersuchungen der Absorption von \gamma-Strahlung in Luft
+        \item Untersuchung der Absorption von \gamma-Strahlung (aus Radium) in Luft
         \item [$\rightarrow$] Schlussfolgerung aus Messungen: In \SI{500}{\metre} Höhe würde die Strahlung der Erde auf wenige Prozent abgefallen sein
       \end{itemize}
         \vspace*{10px}
@@ -141,9 +141,9 @@
         \setlength\itemsep{0.5em}
         \item \textbf{1911}: Erste Ballonflüge durch Hess 1911 ($h \approx \SI{1000}{\metre}$)
         \item [$\rightarrow$] Bestätigung der Resultate von Gockel
-        \item \textbf{1912, erste Hälfte}: Sechs weitere Ballonflüge, zu verschiedenen Tagszeiten ($h \lesssim \SI{2100}{\metre}$)
+        \item \textbf{1912, erste Hälfte}: Sechs weitere Ballonflüge, zu verschiedenen Tageszeiten ($h \lesssim \SI{2100}{\metre}$)
         \item [$\rightarrow$] Keine Korrelation der Ionsationrate mit Sonnenaktivitäten
-        \item [$\rightarrow$] Bestätigung: Ionisatonsrate nimmt nicht signifikant stark mit der Distanz zur Erde ab
+        \item [$\rightarrow$] Bestätigung: Ionisationsrate nimmt nicht signifikant stark mit der Distanz zur Erde ab
       \end{itemize}
         \vspace*{10px}
 
@@ -166,13 +166,13 @@
         \setlength\itemsep{0.5em}
         \item \textbf{7. August 1912}: Ballonflug von Hess auf bis zu $h \approx \SI{5350}{\metre}$
         \item [$\rightarrow$] Gemessener Anstieg der Ionisationsrate von $h \approx \SI{3000}{\metre}$ auf $h \approx \SI{5200}{\metre}$ um Faktor vier!
-        \item [$\rightarrow$] Hess: Es muss sich um eine durchgringende Strahlung handeln, die die Atmosphäre von oben trifft (und nicht von der Sonne stammt)
+        \item [$\rightarrow$] Hess: Es muss sich um eine "durchdringende Strahlung" handeln, die die Atmosphäre von oben trifft (und nicht von der Sonne stammt)
         \item \textbf{1913, 1914}: Bestätigung der Ergebnisse, Ballonflüge von Werner Kolhörster ($h \approx \SI{9300}{\metre}$)
       \end{itemize}
 
 
       \begin{itemize}
-        \item Anfangs bestand bei vielen Forschern Zweifel, dass die entdeckte Strahlung tatsächlich kosmischen Ursprunges war
+        \item Anfangs bestand bei vielen Forschern Zweifel, dass die entdeckte "Strahlung" tatsächlich kosmischen Ursprunges war
       \end{itemize}
 
     \column{0.5\textwidth}
@@ -212,7 +212,7 @@
 \begin{frame}{Die Identifikation als Teilchenstrahlung}
       \begin{itemize}
         \setlength\itemsep{0.5em}
-        \item Große Durchdringtiefe der kosmischen Strahlung $\Rightarrow$ Identifikation als \gamma-Strahlung
+        \item Große Durchdringtiefe der "kosmischen Strahlung" $\Rightarrow$ Identifikation als \gamma-Strahlung
         \item Kolhörster: Absorptionskoeffizient der kosmischen Strahlung in Luft um Faktor \num{4.4} kleiner als Koeffizient von bekannten radioaktiven Quellen  
         \item [$\rightarrow$] Härteres Spektrum?
         \item Andere experimentelle Methoden lösten Elektrometer ab:
@@ -228,9 +228,9 @@
       \begin{itemize}
         \setlength\itemsep{0.5em}
         \item \textbf{1929}: Koinzidenzmessungen von Bothe und Kolhörster mit Geiger-Müller-Zählrohren
-        \item [$\rightarrow$] Ziel: Nachweis dass kosmische Strahlung aus \gamma-Strahlung besteht
+        \item [$\rightarrow$] Ziel: Nachweis, dass kosmische Strahlung aus \gamma-Strahlung besteht
         \item [$\rightarrow$] Idee: \gamma-Strahlung lösen Elektronen aus, welche beide Koinzidenzen durchqueren
-        \item [$\rightarrow$] Beobachte Einfluss eines Absorbers auf die Koinzidenzen
+        \item [$\rightarrow$] Beobachtung des Einflusses eines Absorbers auf die Koinzidenzen
       \end{itemize}
         \vspace*{10px}
   
@@ -250,7 +250,7 @@
         \setlength\itemsep{0.5em}
         \item Mit \SI{4}{\centi\meter} Goldbarren konnten entgegen der Erwartung nur \SI{25}{\percent} der Koinzidenzen entfernt werden
         \item [$\rightarrow$] Die detektierten Teilchen sind so durchdringend wie die kosmische Strahlung selbst
-        \item [$\rightarrow$] Es kann sich nicht um \gamma-Strahlung handeln sondern um geladene Teilchen!
+        \item [$\rightarrow$] Keine \gamma-Strahlung sondern geladene Teilchen!
       \end{itemize}
         \vspace*{10px}
   
@@ -330,8 +330,8 @@
         \item \textbf{1933}: Experiment von Rossi\item[$\rightarrow$]
         Nutzung von drei in Koinzidenz geschalteten Geiger-Müller-Zählern
         \item[$\rightarrow$] Absorber oberhalb von Experiment
-        \item Ergebnis: Bei Verdickung des Absorbers zunächst vergrößerung der Koinzidenzrate, erst danach Abnahme
-        \item Interpretation Rossi: Erzeugung von Sekundärteilchen durch kosmische Strahlung wenn diese den Absorber treffen
+        \item Ergebnis: Bei Verdickung des Absorbers zunächst Vergrößerung der Koinzidenzrate, erst danach Abnahme
+        \item Interpretation Rossi: Erzeugung von Sekundärteilchen durch kosmische Strahlung, wenn diese den Absorber treffen
       \end{itemize}
         \vspace*{10px}
   
@@ -426,7 +426,7 @@
       \begin{figure}
           \centering
           \includegraphics[width=\linewidth]{images/cherenkov}
-          \caption{Links: Wasser-Čerenkov-Detektoren nach Porter. Rechts: Protoyp der Wasser-Čerenkov-Detektoren von Pierre Auger \cite{9789400754225}.}
+          \caption{Links: Wasser-Čerenkov-Detektoren nach Porter. Rechts: Prototyp der Wasser-Čerenkov-Detektoren von Pierre Auger \cite{9789400754225}.}
       \end{figure}
   \end{columns}
 \end{frame}
@@ -478,19 +478,19 @@
 \end{frame}
 
 
-\begin{frame}{Weitere Experimente...}
+\begin{frame}{Schauerexperimente mit Flächen über \SI{1}{\kilo\metre\squared}}
       \begin{itemize}
         \setlength\itemsep{0.5em}
-        \item \textbf{1964 bis 1987}: Haverah Park experiment, Großbritannien (\SI{12}{\kilo\metre\squared})
+        \item \textbf{1964 bis 1987}: Haverah Park Experiment, Großbritannien (\SI{12}{\kilo\metre\squared})
         \item[$\rightarrow$] Wasser-Čerenkov-Detektoren und Myondetektoren
         \item \textbf{1970 bis heute}: Yakutsk Array, Sibirien (\SI{18}{\kilo\metre\squared})
         \item[$\rightarrow$] Messung Čerenkovlicht in der Luft
         \item \textbf{1968 bis 1979}: The Sydney University Giant Air Shower Recorder (SUGAR) (\SI{70}{\kilo\metre\squared})
-        \item[$\rightarrow$] 54 Wasserszintilatoren unter der Erde
+        \item[$\rightarrow$] 54 Wasserszintillatoren unter der Erde
         \item[$\rightarrow$] Erstmals wurden die einzelnen Messstationen autonom betrieben!
         \item[$\rightarrow$] Erste Messungen eines Arrays dieser Größe in der südlichen Hemisphäre
         \item \textbf{1990 bis 2004}: Akeno Giant Air Shower Array (AGASA), Japan (\SI{100}{\kilo\metre\squared})
-        \item[$\rightarrow$] 111 Szintilatordetektoren
+        \item[$\rightarrow$] 111 Szintillatordetektoren
         \item[$\rightarrow$] Messung von 11 Ereignissen über \SI{e20}{\electronvolt} (kein Anzeichen eine Cutoffs)
 
 
@@ -498,7 +498,7 @@
 \end{frame}
 
 
-\begin{frame}{}
+\begin{frame}{Nutzung der Fluoreszenz zur Schauerdetektion}
   \begin{columns}
     \column{0.5\textwidth}
       \begin{itemize}
@@ -508,7 +508,6 @@
         \item[$\rightarrow$] 67 "Augen", je \SI{1.5}{\meter} Spiegel zur Überwachung eines $\SI{5}{\degree} \times \SI{5}{\degree}$ Teil des Himmels
         \item \textbf{1986}: Betriebsbeginn von "Fly's Eye II", \SI{3.4}{\kilo\metre} entfernt um stereoskopische Aufnahmen durchführen zu können
         \item \textbf{1991}: Aufnahme eines Teilchens mit einer Energie von \SI{3.2e20}{\electronvolt} (OMG-Teilchen)
-
       \end{itemize}
         \vspace*{10px}
   
@@ -521,15 +520,169 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}{}
-TODO:
-      \begin{itemize}
-        \item Cygnus X-3 und das Kiel Array
-        \item Als Beispiel für daraus resultierende Experimente: KASCADE (und damit verbunden kurz der Grund für die Entwicklung von CORSICA)
-        \item Pierre Auger: Geschichte (Cronin, GZK-Cutoff)
-      \end{itemize}
 
+\begin{frame}{Nutzung der Fluoreszenz zur Schauerdetektion}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{0.5em}
+        \item \textbf{1997 bis 2006}: Nachfolger von Fly's Eye: HiRes Detektor
+        \item[$\rightarrow$] Verbesserte Auflösung
+        \item[$\rightarrow$] Deutliche Anzeichen für einen GZK-Cutoff im Energiespektrum
+
+      \end{itemize}
+        \vspace*{10px}
+  
+    \column{0.5\textwidth}
+      \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{images/image2_large.jpg}
+          \caption{HiRes Detektor in der Wüste von Utah \cite{hires}}
+      \end{figure}
+  \end{columns}
 \end{frame}
+
+
+\begin{frame}{Cygnus X-3 und seine Konsequenzen}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{0.5em}
+        \item Cygnus X-3: Röntgendoppelsternsystem
+        \item[$\rightarrow$] Entfernung \SI{11}{\kilo\parsec}, Periodizität \SI{4.8}{\hour}
+        \item \textbf{1983}: Haverah Park und Kiel Array detektieren hochenergetische Photonen (\SI{2e15}{\electronvolt}) von Cygnus X-3
+        \item Viele neue Experimente zur Untersuchung von Cygnux X-3 und ähnlichen Objekten
+        \item[$\rightarrow$] CASA-MIA, EAS-TOP, KASCADE, u.v.m.
+      \end{itemize}
+        \vspace*{10px}
+  
+    \column{0.5\textwidth}
+      \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{images/casa-mia}
+          \caption{Luftaufnahme von CASA-MIA \cite{casa-mia}}
+      \end{figure}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}{KASCADE-Grande}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{0.5em}
+        \item \textbf{KA}rlsruhe \textbf{S}hower \textbf{C}ore and \textbf{A}rray \textbf{DE}tector, Datennahme ab 1996
+        \item[$\rightarrow$] Jede Station mit $e/\gamma$-Detektor und myonischen Detektor
+        \item[$\rightarrow$] Zentraldetektor: \SI{320}{\metre\squared} Kalorimeter
+        \item \textbf{2003}: Erweiterung zu KASCADE-Grande
+        \item Beobachtung eines "Knies" bei \SI{8e16}{\electronvolt} für schwerere Komponenten der kosmischen Strahlung
+        \item Ursprung von CORSICA
+      \end{itemize}
+        \vspace*{10px}
+  
+    \column{0.5\textwidth}
+      \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{images/kascade.jpg}
+          \caption{Die 252 Detektorstationen von KASCADE \cite{kascade}}
+      \end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Telescope Array}
+  \begin{columns}
+    \column{0.5\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{0.5em}
+        \item Zusammenschluss aus Mitgliedern von AGASA und HiRes
+        \item \textbf{2008}: Start der Datennahme von \textbf{T}elescope \textbf{A}rray
+        \item Standort: Wüste von Utah
+        \item 570 Szintillatordetektoren am Boden, Fläche von \SI{730}{\kilo\metre\squared}
+        \item 38 Fluoreszenzteleskope
+
+      \end{itemize}
+        \vspace*{10px}
+  
+    \column{0.5\textwidth}
+      \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{images/BRM-FD-open.jpg}
+          \caption{Fluoreszenzteleskop am TA \cite{ta}}
+      \end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Pierre-Auger-Observatorium}
+  \begin{columns}
+    \column{0.55\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{0.5em}
+        \item Idee zum Bau eines \SI{1000}{\kilo\metre\squared}-Arrays bereits in den 80er Jahren
+        \item Cronin, 1991: "\emph{You’re not nearly ambitious enough: We should build \SI{5000}{\kilo\metre\squared}!}"
+        \item[$\rightarrow$] Cronin und Alan Watson: Kollaboration zum Bau von zwei identischen \SI{3000}{\kilo\metre\squared} Detektoren
+        \item[$\rightarrow$] Giant Air-Shower Project (GAP), später Pierre Auger Observatory
+        \item \textbf{2004}: Datennahme mit 150 Wasser-Čerenkov-Detektoren und 6 Fluoreszenz-Teleskopen in Argentinien
+        \item \textbf{2008}: Fertigstellung mit 1600 Bodenstationen und 24 Teleskopen
+      \end{itemize}
+        \vspace*{10px}
+  
+    \column{0.45\textwidth}
+      \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{images/pierre.jpg}
+          \caption{Aufnahme einer Bodenstation des Pierre-Auger-Observatoriums  \cite{pierre}}
+      \end{figure}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}{Ergebnisse}
+  \begin{columns}
+    \column{0.55\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{0.5em}
+        \item Eindeutige Bestätigung der Flussunterdrückung für hohe Energien
+        \item \textbf{2007}: Hinweise auf Korrelation von hochenergetischen Events mit AGN's
+        \item[$\rightarrow$] \textbf{2015}: Auswertung weiterer Daten kann diese Ergebnisse nicht bestätigen
+        \item \textbf{2017}: Hinweise, dass hochenergetische Events extraterrestrischen Ursprungs sind
+
+      \end{itemize}
+        \vspace*{10px}
+  
+    \column{0.45\textwidth}
+      \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{images/DQyBdvVVQAAgu29.png}
+      \end{figure}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}{Pierre-Auger-Observatorium - Erweiterungen}
+  \begin{columns}
+    \column{0.55\textwidth}
+      \begin{itemize}
+        \setlength\itemsep{0.5em}
+        \item Auger Engineering Radio Array (AERA)
+        \item[$\rightarrow$] Messung von durch Luftschauer verursachte Radiopulse
+        \item[$\rightarrow$] 2010 bereits 24 Radioantennen, heute 124 Antennen
+        \item AugerPrime
+        \item[$\rightarrow$] Ziel: Besseres Verständnis der Massenzusammensetzung bei höheren Energien
+        \item[$\rightarrow$] Plastikszintillatoren auf jeder Bodenstation
+        \item[$\rightarrow$] Verbesserte Elektronik
+        \item[$\rightarrow$] Installation von 61 Myondetektoren ("AMIGA project")
+      \end{itemize}
+        \vspace*{10px}
+  
+    \column{0.45\textwidth}
+      \begin{figure}
+          \centering
+          \includegraphics[width=\linewidth]{images/2018-09_NWO-grant_radio1.jpg}
+          \caption{Geplante Bodenstation nach dem Upgrade \cite{prime}}
+      \end{figure}
+  \end{columns}
+\end{frame}
+
 
 \appendix
 
